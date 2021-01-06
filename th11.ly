@@ -26,6 +26,7 @@ global = {
 
 SopranoInstrumentName = "S"
 SopranoMusic = \relative c' {
+  \key bes \major
   \partial 4 bes8[(d)] f4 f f f8[(g)] aes4 aes g4. 
   f8 g4 bes bes8[(g)] f8[(g)] bes2.
   bes8[(c)] d4 bes bes g f ees d
@@ -48,6 +49,7 @@ VerseTwo = \lyricmode { \set stanza = "2."
 
 AltoInstrumentName = "A"
 AltoMusic =  \relative c'{
+  \key bes \major
  \partial 4 bes8[(d)] | d4 c d bes c2 bes2 
  ees4 f ees2 f4 ees d
  d d2 ees c bes4
@@ -56,6 +58,7 @@ AltoMusic =  \relative c'{
 
 TenorInstrumentName = "T"
 TenorMusic = \relative c {
+  \key bes \major
   \partial 4 d8[(f)] f4 ees f d ees2 ees4. 
   f8 bes2. a8[(g)] f2.
   f4 bes2 g2 f2.
@@ -64,6 +67,7 @@ TenorMusic = \relative c {
 
 BassInstrumentName = "B"
 BassMusic = \relative c {
+  \key bes \major
   \partial 4 bes4 bes1 aes4 c ees4. 
   f8 ees4 d c f8[(ees)] d4 c bes
   a g2 c4 bes a g8[(a)] bes4
